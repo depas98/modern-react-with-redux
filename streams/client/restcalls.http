@@ -1,0 +1,12 @@
+@baseURL = http://localhost:3001
+
+GET {{baseURL}}/streams
+Accept: application/json
+
+
+#### List of start wars planets
+GET https://swapi.co/api/planets/ HTTP/1.1
+
+### Get Luke Skywalker
+# @name lukeRequest
+GET https://swapi.co/api/people/?search=Luke HTTP/1.1
